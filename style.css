@@ -3,3 +3,94 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+  justify-content: center;
+  font-family: arial;
+  font-size: 14px;
+  color: #222;
+  background-color: #d5ac7c;
+  margin: auto;
+}
+
+header{
+    background: #f9d6ae;
+    color: #359339;
+    padding-top: 40px;
+    min-height: 100px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 20px 30px 20px 30px;
+    background-color: #57370d;
+    margin: 0 30px 30px 30px;
+}
+header #logo{
+    float: left;
+    margin-left: 20px;
+}
+header #logo h1{
+    margin: 0;
+    color: #56370f
+}
+header nav{
+    float: right;
+}
+
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+.infoBoxes {
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin: 25px;
+}
+
+.aboutUs {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redirect {
+    max-width: 20%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#middle {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+
+.button {
+background-color: #56370f;
+color:#ffffff;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+padding-top: 5px;
+padding-bottom: 5px;
+display: block;
+
+}
+
+h3 {
+    text-align: center;
+}
